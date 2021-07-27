@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar style */
+
+body{
+    width: 100%;
+    background: #EDF5E1;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    height: 90px;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navbar .logo img{
+    width: 100%;
+    height: 180px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.navbar .logo img:hover{
+    transform: scale(1.1);
+    transition: 1s ease all;
+}
+
+.navbar .link-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .link-container .links{
+    width: 80%;
+}
+
+.navbar .link-container .link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .link-container .link li{
+    list-style: none;
+}
+
+.navbar .link-container .link a{
+    color: #05386B;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar .link-container .link a:hover{
+    text-decoration: underline;
+}
+
+.navbar .social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: auto;
+    padding-right: 50px;
+}
+
+.navbar .social img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .social img:hover{
+    transform: scale(1.1);
+    transition: 1s ease all;
+}
+
+/* inicio style */
+
+.contenedor {
+    display: inline-grid;
+    justify-content: space-around;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.inicio .contenedor .inicio-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 38%;
+    height: 100px;
+    
+}
+
+.inicio .contenedor .inicio-container .titles{
+    display: block;
+    justify-content: space-around;
+}
+
+.inicio .contenedor .inicio-container .titles h1{
+    color: #05386B;
+    font-size: 40px;
+}
+
+
+
+.inicio .contenedor .inicio-container .titles p{
+    justify-content: left;
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+
+.inicio .carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 90vh;
+}
+
+.inicio .carousel .carousel-item,
+.inicio .carousel .carousel-item-hidden{
+    display: none;
+}
+
+.inicio .carousel .carousel-item img{
+   width: 100%;
+   
+}
+
+.inicio .carousel .carousel-item-visible{
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
+}
+
+.inicio .carousel .carousel-actions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inicio .carousel .carousel-actions button{
+  border: 0;
+  cursor: pointer;
+  height: 80px;
+  width: 40px;
+  font-size: 60px;
+  color: white;
+  opacity: 0.5;
+  background-color: rgba(14, 8, 8,0.5);
+}
+
+.inicio .carousel .carousel-actions button{
+    margin: 0 20px;
+}
+
+.inicio .carousel .carousel-actions button#carousel-button-prev{
+    margin-left: 20px;
+}
+.inicio .carousel .carousel-actions button#carousel-button-next{
+  margin-right: 20px;
+}
+
+
+.inicio .contenedor .boton {
+    height: 80px;
+}
+
+.inicio .contenedor .boton button {
+    height: 50px;
+    width: 10%;
+    background: #05386B;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.inicio .contenedor .boton button:hover{
+    background: white;
+    color: #05386B;
+    border: 2px solid #05386B;
+    
+}
