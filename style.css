@@ -233,6 +233,65 @@ body{
     
 }
 
+/* problematica style */
+
+.problematica{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.problematica .contenedor-problematica .titulo-cabecera{
+    width: 95%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.problematica .contenedor-problematica .titulo-cabecera h2{
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: #05386B;
+    font-size: 33px;
+
+}
+
+.problematica .contenedor-problematica .titulo-cabecera p{
+
+    color: #379683;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.problematica .contenedor-problematica .cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.problematica .contenedor-problematica .cards .card{
+    width: 30%;
+}
+
+.problematica .contenedor-problematica .cards .card img{
+    width: 100%;
+    height: 250px;
+}
+
+.problematica .contenedor-problematica .cards .card h3{
+    color: #05386B;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.problematica .contenedor-problematica .cards .card p{
+    text-align: justify;
+    color: #379683;
+}
+
+
+
+
 /* -------------------------------------------------------------------------- */
 /*                                  Contacto                                  */
 /* -------------------------------------------------------------------------- */
