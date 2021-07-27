@@ -242,38 +242,92 @@ body{
     box-sizing: border-box;
 } */
 .contact-title{
+    padding: 3% 0 3% 5%;
     color: #379683;
-    margin-left: 5%;
     font-size: 2rem;
 }
 
-.contact{
-    width: 80%;
-    height: 80vh;
+.contact-container{
+    width: 100%;
+    height: 70vh;
     background-color: #fff;
     justify-content: space-around;
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-form{
+.contact-container img{
+    width: 30%;
+    object-fit: contain;
+    text-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input {
     display: flex;
-    display: inline-block;   
+    flex-wrap: wrap;
+    padding: 2%;
+    margin: 2%;
+    border-color: #5CDB95;
+    width: 30vw;
+    /* justify-content: stretch; */
+    align-items: center;
+}
+
+.contact-menssage{
+    padding-bottom: 20%;
+}
+.contact-btn{
+    align-items: center;
+    text-align: center;
+    
+    width: 10%;
+}
+.contact-form{
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 /* -------------------------------------------------------------------------- */
 /*                                   Footer                                   */
 /* -------------------------------------------------------------------------- */
 .footer {
-    width: 90%;
+    width: 100%;
     height: 10vh;
-    background-color: #379683;
+    background-color: #5CDB95;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 3%;
 }
 .foot {
     display: flex;
-    justify-content: space-between;
-    /* width: 100%;
-    height: 10vh; */
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
 }
 
 .twelve a {
     text-decoration: none;
     color: #545555;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
+
+.redes {
+    font-size: 2rem;
+    color: #545555;
+    width: 20%;
+}
+
+.redes i{
+    color: #545555;
+}
+.redes a{
+    padding: 1%;
+}
+
