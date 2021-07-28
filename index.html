@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
-    <link rel="stylesheet" href="style2.css">
->>>>>>> 8a7dff88a0388b5874dfe3d22172bb852cdd6a05
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./img/favicon labordigital.png" type="image/x-icon">
     <title>Labor Digital</title>
@@ -23,11 +19,11 @@
             <div class="link-container">
                 <div class="links">
                     <ul class="link">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Problemática</a></li>
-                        <li><a href="./datos.html">Datos</a></li>
+                        <li><a href="inicio">Inicio</a></li>
+                        <li><a href="problematica">Problemática</a></li>
+                        <li><a href="#">Datos</a></li>
                         <li><a href="#">Solución</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +70,48 @@
     </div>
     </section>
 
-<script src="script.js"></script>
+    <section class="problematica" id="problematica">
+        <div class="contenedor-problematica">
+            <div class="titulo-cabecera">
+                <h2>Problemática</h2>
+                <p>¿Qué se puede esperar respecto al impacto de la pandemia en las grandes tendencias en los
+                    mercados laborales? 
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/covid.jpg" alt="">
+                    <h3>Destrucción de empleo</h3>
+                    <p>Se prevé que el empleo en el comercio, los
+                        restaurantes y hoteles y la industria manufacturera se cuente entre el más afectado, mientras que el
+                        trabajo en sector agropecuario (indispensable para la subsistencia general y, generalmente, con la
+                        posibilidad de mantener el distanciamiento físico en el trabajo) está con un riesgo de pérdida (temporal)
+                        medio-bajo.</p>
+                </div>
+                <div class="card">
+                    <img src="img/virtualconference.jpg" alt="">
+                    <h3>Empleos en expansión</h3>
+                    <p>Aumentó el empleo en
+                        nuevas ocupaciones, tanto en el desarrollo de las empresas que organizan el comercio electrónico,
+                        como en ocupaciones de compra y distribución de los productos.
+                        Durante la crisis sanitaria están aumentando las compras a través de aplicaciones en línea, tanto
+                        para este tipo de productos como para los que no son de primera necesidad.</p>
+                </div>
+                <div class="card">
+                    <img src="img/solidaridad.jpg" alt="">
+                    <h3>Transformacion del empleo</h3>
+                    <p>Una de las transformaciones del trabajo facilitadas por la digitalización es el teletrabajo que, en
+                        ocasiones, ha sido fomentado no solo por su potencial papel en el ámbito laboral, sino también por su
+                        posible contribución a una mejor conciliación entre el trabajo y la vida familiar, la descongestión del
+                        tráfico urbano y la descontaminación correspondiente.</p>
+                </div>  
+            </div>
+
+            
+        </div>
+    </section>
+
+
 
     <!-- ----------------------------------------------------------------------- -->
     <!--                                Datos                             -->
@@ -174,14 +211,19 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                                Contacto                                 -->
     <!-- ----------------------------------------------------------------------- -->
-    <div class="contact">
+    
         <h2 class="contact-title" id="contacto">Contacto</h2>
-        <img src="./img/Logo Labor .svg" alt="">
-        <form action="" class="contact-form">
-            <input type="text" placeholder="Nombre">
-            <input type="email" name="mail" id="mail" placeholder="Correo electrónico">
-            <input type="text" placeholder="Mensaje">
-            <input type="submit" value="Enviar">
+        <div class="contact-container">
+            <img id="img-contact" src="./img/Logo SVG Labor.svg" alt="">
+            <form action="" class="contact-form">
+                <input type="text" placeholder="Nombre">
+                <input type="email" name="mail" id="mail" placeholder="Correo electrónico">
+                <input class="contact-menssage" type="text-area" placeholder="Mensaje">
+                <div class="submit">
+                    <input class="contact-btn" type="submit" value="Enviar">
+                </div>
+                
+        </div>    
         </form>
 
         <!-- ----------------------------------------------------------------------- -->
@@ -202,5 +244,9 @@
             </footer>
         </div>
     </div>
+    
+    
+    
+<script src="script.js"></script>
 </body>
 </html>
