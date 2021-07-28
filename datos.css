@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #EDF5E1;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    position:fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    height: 90px;
+}
+
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navbar .logo img{
+    width: 100%;
+    height: 180px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.navbar .logo img:hover{
+    transform: scale(1.1);
+    transition: 1s ease all;
+}
+
+.navbar .link-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .link-container .links{
+    width: 80%;
+}
+
+.navbar .link-container .link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .link-container .link li{
+    list-style: none;
+}
+
+.navbar .link-container .link a{
+    color: #05386B;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar .link-container .link a:hover{
+    text-decoration: underline;
+}
+
+.navbar .social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: auto;
+    padding-right: 50px;
+}
+
+.navbar .social img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .social img:hover{
+    transform: scale(1.1);
+    transition: 1s ease all;
+}
+
+.conteiner-header{
+    display: flex;
+    margin-top: 4.7%;
+    height: 90.7vh;
+    background-color: #205374;
+   }
+
+.info-header{
+    display: flex;
+    width: 50%;
+    height: 90.7vh;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.info-main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #205374;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    width: 30%;
+    height: 80%;
+    background-color: #205374;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.img-peste-negra{
+    width: 90%;
+    height: 40%;
+    margin-top: 10%;
+}
+
+.info p{
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+
+.img-viruela{
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.img-gripe-española{
+    width: 90%;
+    height: 40%;
+    
+}
+
+.info h2{
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.conteiner-covid{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title-covid{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #379683;
+    font-size: 1.4rem;#05386B
+}
+
+.title-covid h3:hover{
+    color: rgba(224, 177, 22, 0.74);
+    }
+    
+
+
+.info-desempleo{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color:#05386B;
+    justify-content: space-around;
+    
+}
+
+.info-1{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+    background-color:#05386B;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.img-info-1 {
+    width: 35%;
+    margin-top: 3%;
+}
+
+.info-1 p{
+    margin-top: 5%;
+    font-size: 1.8rem;
+}
+
+.info-1 p:hover{
+    color: rgba(0, 140, 255, 0.418);
+}
+
+
+.img-info-2{
+    width: 30%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+.contact-title{
+    color: #379683;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+.contact{
+    width: 80%;
+    height: 80vh;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+.contact-form{
+    display: flex;
+    display: inline-block;   
+}
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+/* -------------------------------------------------------------------------- */
+.footer {
+    width: 90%;
+    height: 10vh;
+    background-color: #379683;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%;
+    height: 10vh; */
+}
+
+.twelve a {
+    text-decoration: none;
+    color: #545555;
+}
