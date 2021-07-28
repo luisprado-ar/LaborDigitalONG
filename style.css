@@ -317,7 +317,6 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .contact-container img{
@@ -342,10 +341,7 @@ input {
     padding-bottom: 20%;
 }
 .contact-btn{
-    align-items: center;
-    text-align: center;
-    
-    width: 12%;
+    width: 13%;
 }
 .contact-form{
     flex-wrap: wrap;
@@ -353,13 +349,15 @@ input {
     align-items: center;
 }
 
-/* .submit {
+.submit {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 0;
     margin: 0;
-} */
+    text-align: center;
+}
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -403,3 +401,36 @@ input {
     padding: 1%;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                 Responsive                                 */
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    .contact-container{
+        display: grid;
+    }
+    #img-contact{
+        width:100%;
+    }
+    .contact-form{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        width:100%;
+    }
+    .contact-form input{
+        width: 100%;
+    }
+    .contact-btn{
+        width: 20%;
+        justify-content: center;
+    }
+    .submit{
+        width: 20%;
+    }
+
+    .redes{
+        width: 30%;
+    }
+    
