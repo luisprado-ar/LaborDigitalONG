@@ -152,6 +152,7 @@ body{
     font-weight: 500;
 }
 
+
 .img-viruela{
     width: 90%;
     height: 40%;
@@ -187,6 +188,12 @@ body{
     font-size: 1.4rem;#05386B
 }
 
+.title-covid h3:hover{
+    color: rgba(224, 177, 22, 0.74);
+    }
+    
+
+
 .info-desempleo{
     display: flex;
     width: 100%;
@@ -215,6 +222,11 @@ body{
     margin-top: 5%;
     font-size: 1.8rem;
 }
+
+.info-1 p:hover{
+    color: rgba(0, 140, 255, 0.418);
+}
+
 
 .img-info-2{
     width: 30%;
