@@ -41,3 +41,10 @@ document.
 
     updateSlidePosition();
   }
+
+
+  $( document ).ready(function() {
+		$('#menu-toggle').click(function(){ // Al hacer click...
+		   $('.navbar').toggleClass('.open'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
