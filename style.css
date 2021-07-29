@@ -35,14 +35,15 @@ body{
     display: flex;
     justify-content: center;
     width: 20%;
-    height: auto;
+    /* height: auto; */
     align-items: center;
     padding: 0 50px;
+    object-fit: contain;
 }
 
 .navbar .logo img{
     width: 100%;
-    height: 180px;
+    /* height: 180px; */
     padding-top: 20px;
     cursor: pointer;
 }
@@ -103,12 +104,11 @@ body{
 }
 .social {
     font-size: 2rem;
-    color: #545555;
     width: 20%;
 }
 
 .social i{
-    color: #545555;
+    color: #05386B;
 }
 .social a{
     padding: 1%;
@@ -358,6 +358,9 @@ input {
 .contact-btn{
     width: 20%;
     display: inline-block;
+    color: #05386B;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 
@@ -400,6 +403,10 @@ input {
 }
 .redes a{
     padding: 1%;
+}
+.redes i:hover{
+    transform: scale(1.1);
+    transition: 1s ease all;
 }
 
 /* -------------------------------------------------------------------------- */
