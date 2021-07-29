@@ -97,9 +97,21 @@ body{
     height: 30px;
 }
 
-.navbar .social img:hover{
+.navbar .social i:hover{
     transform: scale(1.1);
     transition: 1s ease all;
+}
+.social {
+    font-size: 2rem;
+    color: #545555;
+    width: 20%;
+}
+
+.social i{
+    color: #545555;
+}
+.social a{
+    padding: 1%;
 }
 
 /* inicio style */
