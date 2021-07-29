@@ -777,3 +777,225 @@ input {
         position: relative;
     }
 }}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   Datos                               */
+/* -------------------------------------------------------------------------- */
+
+.conteiner-header{
+    display: flex;
+    height: 90.7vh;
+    background-color: #205374;
+   }
+
+.info-header{
+    display: flex;
+    width: 50%;
+    height: 90.7vh;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    background-color: #05386B;
+
+}
+
+.info-main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #05386B;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -6%;
+}
+
+.info{
+    display: flex;
+    width: 30%;
+    height: 80%;
+    background-color: #05386B;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.img-peste-negra{
+    width: 90%;
+    height: 40%;
+    margin-top: 10%;
+}
+
+.info p{
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+
+.img-viruela{
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.img-gripe-española{
+    width: 90%;
+    height: 40%;
+    
+}
+
+.info h2{
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.conteiner-covid{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.title-covid{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #05386B;
+    font-size: 1.4rem;
+    transition-duration: 2s;
+    transition-property: color;
+    transition-timing-function: ease-in;
+    margin-top: -5%;
+    
+}
+
+.title-covid h3:hover{
+    color: rgba(224, 177, 22, 0.74);
+    }
+    
+
+
+.info-desempleo{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color:#05386B;
+    justify-content: space-around;
+    
+}
+
+.info-1{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+    background-color:#05386B;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img-info-1 {
+    width: 35%;
+    margin-top: 3%;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.info-1 p{
+    margin-top: 5%;
+    font-size: 1.8rem;
+    transition-duration: 1.3s;
+    transition-property: color;
+    transition-timing-function: ease-in;
+}
+
+.info-1 p:hover{
+    color: #ffb703;
+}
+
+
+.img-info-2{
+    width: 30%;
+    margin-top: 3%;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.title-pandemia {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #05386B ;
+    color: black ;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1.5s;
+    transition-property: color;
+    transition-timing-function: ease-in;    
+}
+
+.img-info-1:hover{
+    transform: scale(1.5)
+}
+
+.img-info-2:hover{
+    transform: scale(1.5)
+}
+
+.title-pandemia:hover{
+    color: #ffb703;
+}
+
+.reseña-pandemia{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color:#05386B ;
+}
+
+.title-info:hover{
+    color: #ffb703;
+    transform: scale(1.6);
+}
+
+.title-info{
+    transition-duration: 1.5s;
+    transition-property: color, transform;
+    transition-timing-function: cubic-bezier(0,-1.74,1,1.84);
+}
+
+
+
+.title-reseña{
+    transition-duration: 1.5s;
+    transition-property: color, transform;
+    transition-timing-function: cubic-bezier(0,-1.74,1,1.84);
+}
+
+.title-reseña:hover{
+    color: #ffb703;
+}
+
+.title-covid-1:hover{
+ transform: scale(1.5);
+ color: #ffb703;
+}
+
+.title-covid-1{
+    transition-duration: 1.5s;
+    transition-property: color, transform;
+    transition-timing-function: cubic-bezier(0,-1.74,1,1.84);
+}
