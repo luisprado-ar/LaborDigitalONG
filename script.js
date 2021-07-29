@@ -41,3 +41,25 @@ document.
 
     updateSlidePosition();
   }
+
+
+  $(document).ready(main);
+		
+  var contador = 1;
+
+  function main (){
+    $('.menu-toggle').click(function(){
+      if (contador == 1){
+        $('.links').animate({
+          left: '0'
+        });
+        contador = 0;
+      } else {
+        contador = 1;
+        $('.links').animate({
+          left: '-100%'
+        });
+      }
+    });
+
+  };

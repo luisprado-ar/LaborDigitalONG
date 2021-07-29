@@ -22,6 +22,33 @@ body{
     z-index: 5;
 }
 
+
+.links{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 100px;
+    width: 80%;
+    position: fixed;
+    background-color: #05386B;
+    color: white;
+}
+
+.nav .links .link li,a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.nav .links .link li{
+    border-bottom: 1px solid;
+}
+
+
 .navbar{
     width: 100%;
     display: flex;
@@ -53,6 +80,11 @@ body{
     transition: 1s ease all;
 }
 
+.navbar .menu-toggle{
+    display: none;
+}
+
+
 .navbar .link-container{
     width: 100%;
     display: flex;
@@ -60,7 +92,7 @@ body{
     align-items: center;
 }
 
-.navbar .link-container .links{
+.navbar .link-container .links2{
     width: 80%;
 }
 
@@ -278,6 +310,7 @@ body{
 .problematica .contenedor-problematica .cards{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .problematica .contenedor-problematica .cards .card{
@@ -413,6 +446,7 @@ input {
 /*                                 Responsive                                 */
 /* -------------------------------------------------------------------------- */
 
+    
 @media screen and (max-width: 760px) {
     .contact-container{
         /* display: grid; */
@@ -438,12 +472,11 @@ input {
     .submit{
         width: 20%;
         display: inline-block;
-        margin-top: 2%;
     }
 
     .redes{
         width: 30%;
-    }}
+    }
 
 @media (max-width: 650px){
         .contact-container{
@@ -529,3 +562,218 @@ input {
             font-size: .8rem;
         }
     }
+
+
+
+
+
+
+@media (max-width: 1038px ){
+
+
+.navbar .logo{
+    display: none;
+}
+
+.contenedor{
+    position: static;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inicio .carousel {
+    height: 70vh;
+}
+
+.inicio .contenedor .inicio-container {
+    width: 100%;
+    height: 300px;
+}
+
+.inicio .contenedor .inicio-container .titles p {
+    margin-top: 40px;
+}
+
+.inicio .contenedor .boton button {
+    width: 20%;
+}
+
+.problematica .contenedor-problematica .cards {
+    margin-top: 40px;
+}
+
+}
+
+@media (max-width: 791px ){
+    .nav {
+        height: auto;
+        position: static;
+    }
+
+   .links{
+       display: flex;
+   }
+
+   .navbar{
+       position: absolute;
+   }
+
+    .navbar .link-container {
+        display: none;
+    }
+    
+    .navbar .menu-toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .navbar .menu-toggle a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #379683;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        display: flex;
+        width: 70%;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .navbar .logo img {
+        width: auto;
+        height: 120px;
+        padding-top: 0px;
+    }
+
+    .navbar .social {
+        width: 30%;
+        padding-right: 0;
+    }
+
+    .inicio .carousel {
+        height: 50vh;
+        position: static;
+    }
+
+    .problematica {
+        display: inline-block;
+    }
+
+    .problematica .contenedor-problematica .cards {
+        display: inline-block;
+    }
+
+    .problematica .contenedor-problematica .cards .card {
+        width: 75%;
+        margin: 0 auto 40px auto;
+    }
+
+    .problematica .contenedor-problematica .cards {
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width:651px){
+    .inicio .carousel {
+        height: 40vh;
+    }
+
+    .inicio .contenedor .inicio-container .titles p {
+        color: #379683;
+    }
+
+    .problematica .contenedor-problematica .titulo-cabecera p {
+        font-size: 20px;
+    }
+
+    .problematica .contenedor-problematica .cards .card {
+        width: 85%;
+    }
+
+    .problematica .contenedor-problematica .cards {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:515px){
+
+    .problematica .contenedor-problematica .cards .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:408px){
+
+    .navbar .menu-toggle {
+        width: 30%;
+    }
+    .navbar .social {
+        width: 40%;
+    }
+    .inicio .carousel .carousel-item img {
+        height: 270px;
+    }
+    .inicio .contenedor .inicio-container {
+        height: 299px;
+    }
+
+    .inicio .contenedor .boton {
+        margin-top: 30px;
+    }
+
+    .inicio .contenedor .boton button {
+        width: 40%;
+    }
+
+}
+
+@media (max-width:389px){
+
+    .navbar{
+        position: fixed;
+    }
+    .navbar .menu-toggle {
+        width: 30%;
+    }
+
+    .nav .top-nav .links {
+        font-size: 25px;
+    }
+
+    .nav .top-nav {
+        position: fixed;
+    }
+
+    .navbar .logo {
+        width: 40%; 
+    }
+
+    .navbar .social {
+        width: 29%;
+    }
+
+    .contenedor {
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .inicio .carousel {
+        display: none;
+        
+    }
+
+    .inicio .carousel .carousel-actions {
+        position: relative;
+    }
+}}
