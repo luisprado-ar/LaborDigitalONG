@@ -24,7 +24,7 @@ body{
 
 
 .links{
-    display: flex;
+    display: none;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -606,6 +606,14 @@ input {
         position: static;
     }
 
+   .links{
+       display: flex;
+   }
+
+   .navbar{
+       position: absolute;
+   }
+
     .navbar .link-container {
         display: none;
     }
@@ -648,6 +656,7 @@ input {
 
     .inicio .carousel {
         height: 50vh;
+        position: static;
     }
 
     .problematica {
