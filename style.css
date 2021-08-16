@@ -34,6 +34,7 @@ body{
     position: fixed;
     background-color: #05386B;
     color: white;
+    
 }
 
 .nav .links .link li,a{
@@ -181,7 +182,7 @@ body{
 
 .inicio .contenedor .inicio-container .titles p{
     justify-content: left;
-    color: white;
+    color: #5CDB95;
     font-size: 28px;
     margin-top: 10px;
     font-weight: 300;
@@ -316,6 +317,7 @@ body{
 .problematica .contenedor-problematica .cards .card{
     width: 30%;
 }
+
 
 .problematica .contenedor-problematica .cards .card img{
     width: 100%;
@@ -583,6 +585,12 @@ input {
     margin: 0 auto;
 }
 
+.liks{
+    width: 40%;
+    padding-top: 8%;
+    line-height: 70px;
+}
+
 .inicio .carousel {
     height: 70vh;
 }
@@ -609,15 +617,17 @@ input {
 @media (max-width: 791px ){
     .nav {
         height: auto;
-        position: static;
     }
 
    .links{
        display: flex;
+        width: 40%;
+        padding-top: 8%;
+        line-height: 70px;
    }
 
    .navbar{
-       position: absolute;
+       position: fixed;
    }
 
     .navbar .link-container {
@@ -741,8 +751,11 @@ input {
 @media (max-width:389px){
 
     .navbar{
-        position: fixed;
+        position: absolute;
+        justify-content: right;
+        
     }
+
     .navbar .menu-toggle {
         width: 30%;
     }
@@ -776,6 +789,7 @@ input {
     .inicio .carousel .carousel-actions {
         position: relative;
     }
+
 }}
 
 
